@@ -1,0 +1,39 @@
+.FormContact {
+  width: 350px;
+  text-align: center;
+}
+.Label {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.Input {
+  height: 25px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.Input:focus,
+.Input:hover {
+  background-color: rgb(228, 252, 144);
+  transition: background-color 500ms;
+}
+.Input::placeholder {
+  color: gray;
+}
+
+.Input:hover.Input::placeholder {
+  color: rgb(0, 0, 0);
+}
+.InputBtn {
+  cursor: pointer;
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(228, 252, 144);
+}
+.InputBtn:hover {
+  background-color: rgb(104, 3, 3);
+  color: white;
+  transition: all 300ms;
+}

@@ -1,0 +1,29 @@
+.ContactList {
+  width: 350px;
+  padding-left: 0;
+}
+.Item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(228, 252, 144);
+  height: 50px;
+  border: 1px solid black;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.Delete__btn {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  height: 28px;
+}
+.Delete__btn:hover {
+  background-color: rgb(104, 3, 3);
+  color: white;
+}
+.text {
+  font-size: 18px;
+}

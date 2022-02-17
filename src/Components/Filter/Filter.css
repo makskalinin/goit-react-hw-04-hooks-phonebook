@@ -1,0 +1,26 @@
+.Filter_container {
+  width: 350px;
+  margin-top: 20px;
+}
+.Filter_label {
+  font-size: 18px;
+  color: red;
+}
+.Filter_input {
+  height: 25px;
+  font-size: 18px;
+  padding-left: 10px;
+  display: block;
+  width: 335px;
+}
+.Filter_input::placeholder {
+  color: gray;
+}
+.Filter_input:hover.Filter_input::placeholder {
+  color: rgb(0, 0, 0);
+}
+.Filter_input:focus,
+.Filter_input:hover {
+  background-color: rgb(228, 252, 144);
+  transition: background-color 500ms;
+}
