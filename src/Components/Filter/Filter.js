@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+
 import './Filter.css'
 export default function Filter({filter, changeFilter}) {
     
